@@ -10,7 +10,7 @@ source:
   url: https://pypi.python.org/packages/source/b/bob.ip.draw/bob.ip.draw-{{ version }}.zip
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
@@ -20,13 +20,11 @@ requirements:
     - setuptools
     - bob.extension >2.0.4
     - bob.blitz
-    - gcc     # [linux]
 
   run:
     - python
     - bob.extension >2.0.4
     - bob.blitz
-    - libgcc  # [linux]
 
 test:
   commands:
