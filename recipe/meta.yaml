@@ -20,6 +20,7 @@ requirements:
     - setuptools
     - bob.extension >2.0.4
     - bob.blitz
+    - pkg-config
 
   run:
     - python
