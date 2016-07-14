@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.ip.draw-{{ version }}.zip
   md5: c103c44f97b615050d3cd65bdc803173
-  url: https://pypi.python.org/packages/source/b/bob.ip.draw/bob.ip.draw-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.ip.draw/bob.ip.draw-{{ version }}.zip
 
 build:
   number: 0
