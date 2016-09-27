@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 
 package:
   name: bob.ip.draw
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.ip.draw-{{ version }}.zip
-  md5: c103c44f97b615050d3cd65bdc803173
+  md5: 1a859fbdad7c8e49329a71111f8f9ba6
   url: https://pypi.io/packages/source/b/bob.ip.draw/bob.ip.draw-{{ version }}.zip
 
 build:
@@ -40,7 +40,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.ip.draw
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Line and Box drawing utilities of Bob
 
