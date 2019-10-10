@@ -1,4 +1,4 @@
-{% set version = "2.0.6" %}
+{% set version = "2.0.12" %}
 
 package:
   name: bob.ip.draw
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.ip.draw-{{ version }}.zip
-  md5: f7fc6c05d392d89278ac75987c1ecdf1
+  md5: 32427d48f96f5ab339f5b7550b2d073b
   url: https://pypi.io/packages/source/b/bob.ip.draw/bob.ip.draw-{{ version }}.zip
 
 build:
